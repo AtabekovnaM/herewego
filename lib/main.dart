@@ -1,12 +1,14 @@
+
 import 'package:flutter/material.dart';
-import 'package:herewego/home_page.dart';
+import 'package:herewego/pages/home_page.dart';
+import 'package:herewego/pages/signin_page.dart';
+import 'package:herewego/pages/signup_page.dart';
 
 void main() {
   runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -15,7 +17,12 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: HomePage(),
+      home: SignInPage(),
+      routes: {
+        HomePage.id: (context) => HomePage(),
+        SignInPage.id: (context) => SignInPage(),
+        SignUpPage.id: (context) => SignUpPage(),
+      },
     );
   }
 }
