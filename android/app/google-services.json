@@ -2,6 +2,7 @@
   "project_info": {
     "project_number": "796741563860",
     "project_id": "here-we-go-d0dc2",
+    "firebase_url": "https://here-we-go-d0dc2-default-rtdb.firebaseio.com",
     "storage_bucket": "here-we-go-d0dc2.appspot.com"
   },
   "client": [

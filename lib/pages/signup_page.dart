@@ -85,7 +85,7 @@ class _SignUpPageState extends State<SignUpPage> {
                   height: 45,
                   child: FlatButton(
                     onPressed: _doSignUp,
-                    color: Colors.red,
+                    color: Colors.blue,
                     child: Text("Sign Up",style: TextStyle(color: Colors.white),),
                   ),
                 ),

@@ -74,7 +74,7 @@ class _SignInPageState extends State<SignInPage> {
                   height: 45,
                   child: FlatButton(
                     onPressed: _doSignIn,
-                    color: Colors.red,
+                    color: Colors.blue,
                     child: Text(
                       "Sign In",
                       style: TextStyle(color: Colors.white),
@@ -122,3 +122,4 @@ class _SignInPageState extends State<SignInPage> {
     );
   }
 }
+
